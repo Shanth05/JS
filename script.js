@@ -26,6 +26,8 @@ console.log(typeof v);
 let username;
 document.getElementById("submit").onclick=
 function () {
-    username = document.getElementById("text").value;
+    username = document.getElementById("txt").value;
     console.log(username);
+
+    document.getElementById("name").textContent= `${username}`;
 }
